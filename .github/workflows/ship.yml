@@ -1,0 +1,25 @@
+name: ship
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: README freshness check
+        run: |
+          if ! grep -q "Live Demo" README.md; then
+            echo "README is missing the Live Demo hero link. Regenerate with readme-gen.py." >&2
+            exit 1
+          fi
