@@ -1,57 +1,77 @@
 <div align="center">
 
-# BioVision Lab
+# BIOVISION LAB
 
 ### Biology, visualized.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-8E75FF?style=for-the-badge)](https://biovision-lab.vercel.app)
-[![Deploy](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel)](https://biovision-lab.vercel.app)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+![BioVision Lab](https://img.shields.io/badge/BIOVISION_LAB-2026-%23F2F0EB?style=for-the-badge&labelColor=%23060608)
+![Status](https://img.shields.io/badge/STATUS-LIVE-%237A1212?style=for-the-badge&labelColor=%23060608)
+![Deps](https://img.shields.io/badge/DEPENDENCIES-ZERO-%23060608?style=for-the-badge&labelColor=%23060608)
+![License](https://img.shields.io/badge/License-MIT-%23060608?style=for-the-badge&labelColor=%23060608)
+
+An interactive virtual lab for biotechnology students — textbook topics
+become living visual experiences.
+
+[Live Demo](https://biovision-lab.vercel.app) • [GitHub](https://github.com/adityapratap0077-cloud/biovision-lab)
 
 </div>
 
 ---
 
-An interactive virtual lab for biotechnology students. Boring textbook topics become living visual experiences: a step-through animated DNA replication fork, a beating human heart with a live blood-flow circuit and BPM control, a clickable animal cell explorer, and a 12-question quiz mode with instant feedback.
+## The lab bench
 
-## ✨ Features
+### DNA Replication Fork
+A step-through animated replication fork with **5 stages**, from helicase
+loading at oriC through Okazaki fragment synthesis — enzyme highlights for
+helicase, primase, DNA polymerase and ligase, each with its own function
+explainer.
 
-- Animated DNA replication fork with 5 step-through stages and enzyme highlights
-- Beating heart simulation with blood-flow circuit animation and BPM slider (40-160)
-- Clickable animal cell explorer — 9 organelles with functions and fun facts
-- 12-question quiz mode with instant feedback, explanations and best-score tracking
-- Zero dependencies, pure static — deploys anywhere in seconds
+### Beating Heart
+A beating human heart with a live blood-flow circuit animation and a BPM
+slider (**40–160**, resting default 72), with the cardiac cycle paced to
+your setting.
 
-<!-- ## 📸 Screenshots
-Add screenshots here: ![screenshot](docs/screenshot-1.png)
--->
+### Cell Explorer
+A clickable animal cell: **9 organelles** — nucleus, mitochondria, rough and
+smooth ER, Golgi apparatus, lysosome, ribosomes, vacuole, cell membrane —
+each with its function and a fun fact.
 
-## 🛠️ Tech Stack
+### Quiz Mode
+**12 questions** with instant feedback, explanations and best-score tracking
+persisted in the browser.
 
-![HTML5](https://img.shields.io/badge/HTML5-8E75FF?style=for-the-badge) ![CSS3](https://img.shields.io/badge/CSS3-8E75FF?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge) ![Canvas](https://img.shields.io/badge/Canvas-8E75FF?style=for-the-badge) ![SVG](https://img.shields.io/badge/SVG-8E75FF?style=for-the-badge)
+## Tech
 
-## 🚀 Getting Started
+Zero dependencies. Pure HTML + CSS + JavaScript with Canvas and SVG —
+static files that deploy anywhere in seconds.
+
+---
+
+## Getting started
 
 ```bash
-git clone https://github.com/https://github.com/adityapratap0077-cloud/biovision-lab.git
+git clone https://github.com/adityapratap0077-cloud/biovision-lab.git
 cd biovision-lab
-npm install
-npm run dev
 ```
 
-## 📦 Deploy
+Open `index.html` in a browser, or serve statically:
+
+```bash
+python3 -m http.server 8080
+# open http://localhost:8080
+```
+
+## Deploy
 
 Push to `main` — Vercel auto-deploys production.
 
-## 👤 Author
+---
+
+## License
+
+MIT © Aditya Pratap — see [LICENSE](LICENSE).
+
+---
 
 **Aditya Pratap** — Creative Technologist
-
-- 🌐 Portfolio: https://my-portfolio-khaki-gamma-94.vercel.app/
-- 💼 LinkedIn: https://www.linkedin.com/in/adityapratap0077/
-- 🐙 GitHub: https://github.com/adityapratap0077-cloud
-- 📧 Email: adityapratap0077@gmail.com
-
-## 📄 License
-
-MIT © Aditya Pratap
+Gorakhpur, India — github.com/adityapratap0077-cloud
