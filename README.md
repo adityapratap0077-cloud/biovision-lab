@@ -9,7 +9,7 @@
 ![Deps](https://img.shields.io/badge/DEPENDENCIES-ZERO-%23060608?style=for-the-badge&labelColor=%23060608)
 ![License](https://img.shields.io/badge/License-MIT-%23060608?style=for-the-badge&labelColor=%23060608)
 
-An interactive virtual lab for biotechnology students — textbook topics
+An interactive virtual lab for biotechnology students, textbook topics
 become living visual experiences.
 
 [Live Demo](https://biovision-lab.vercel.app) • [GitHub](https://github.com/adityapratap0077-cloud/biovision-lab)
@@ -22,7 +22,7 @@ become living visual experiences.
 
 ### DNA Replication Fork
 A step-through animated replication fork with **5 stages**, from helicase
-loading at oriC through Okazaki fragment synthesis — enzyme highlights for
+loading at oriC through Okazaki fragment synthesis, enzyme highlights for
 helicase, primase, DNA polymerase and ligase, each with its own function
 explainer.
 
@@ -32,8 +32,8 @@ slider (**40–160**, resting default 72), with the cardiac cycle paced to
 your setting.
 
 ### Cell Explorer
-A clickable animal cell: **9 organelles** — nucleus, mitochondria, rough and
-smooth ER, Golgi apparatus, lysosome, ribosomes, vacuole, cell membrane —
+A clickable animal cell: **9 organelles**: nucleus, mitochondria, rough and
+smooth ER, Golgi apparatus, lysosome, ribosomes, vacuole, cell membrane,
 each with its function and a fun fact.
 
 ### Quiz Mode
@@ -42,7 +42,7 @@ persisted in the browser.
 
 ## Tech
 
-Zero dependencies. Pure HTML + CSS + JavaScript with Canvas and SVG —
+Zero dependencies. Pure HTML + CSS + JavaScript with Canvas and SVG,
 static files that deploy anywhere in seconds.
 
 ---
@@ -63,15 +63,15 @@ python3 -m http.server 8080
 
 ## Deploy
 
-Push to `main` — Vercel auto-deploys production.
+Push to `main`: Vercel auto-deploys production.
 
 ---
 
 ## License
 
-MIT © Aditya Pratap — see [LICENSE](LICENSE).
+MIT © Aditya Pratap · see [LICENSE](LICENSE).
 
 ---
 
-**Aditya Pratap** — Creative Technologist
-Gorakhpur, India — github.com/adityapratap0077-cloud
+**Aditya Pratap** · Creative Technologist
+Gorakhpur, India · github.com/adityapratap0077-cloud
